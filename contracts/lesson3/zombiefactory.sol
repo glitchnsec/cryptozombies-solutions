@@ -1,9 +1,14 @@
 pragma solidity >=0.5.0 <0.6.0;
 
+
+// cannot do this since the required solidity compiler versions are different
+//import "@openzeppelin/contracts/access/Ownable.sol";
+
 // 1. Import here
+import "./ownable.sol";
 
 // 2. Inherit here:
-contract ZombieFactory {
+contract ZombieFactory is Ownable{
 
     event NewZombie(uint zombieId, string name, uint dna);
 
