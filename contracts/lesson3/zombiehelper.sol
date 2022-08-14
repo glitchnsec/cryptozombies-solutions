@@ -9,7 +9,6 @@ contract ZombieHleper is ZombieFeeding {
         _;
     }
 
-    // Start here
     function changeName (uint _zombieId, string calldata _newName) external aboveLevel(2, _zombieId) {
         require(msg.sender == zombieToOwner[_zombieId]);
         zombies[_zombieId].name = _newName;
@@ -20,5 +19,7 @@ contract ZombieHleper is ZombieFeeding {
         zombies[_zombieId].dna = _newDna;
 
     }
+
+    // Create your function here
 
 }
