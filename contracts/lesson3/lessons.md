@@ -37,3 +37,4 @@ Chapter 8
 
 Chapter 9
 ---
+1. `calldata` is somehow similar to `memory` but it's only available to external functions
