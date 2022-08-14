@@ -4,5 +4,8 @@ import "./zombiefeeding.sol";
 
 contract ZombieHleper is ZombieFeeding {
 
-    // Start here
+    modifier aboveLevel (uint32 _level, uint _zombieId) {
+        require(zombies[_zombieId].level >= _level);
+        _;
+    }
 }
