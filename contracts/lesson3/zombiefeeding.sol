@@ -22,7 +22,7 @@ contract ZombieFeeding is ZombieFactory {
   KittyInterface kittyContract;
 
   // 3. Add setKittyContractAddress method here as external
-  function setKittyContractAddress(address _address) external {
+  function setKittyContractAddress(address _address) external onlyOwner {
     kittyContract = KittyInterface(_address);
   }
 
