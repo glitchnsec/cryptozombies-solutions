@@ -10,5 +10,5 @@ contract ZombieHleper is ZombieFeeding {
     }
 
     // Start here
-    
+
 }
