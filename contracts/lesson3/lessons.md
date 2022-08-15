@@ -41,3 +41,5 @@ Chapter 9
 
 Chapter 10
 ---
+1. `View` functions don't cost gas when externally called `external view`. This is because no transaction needs to be created and data can be read from the local Ethereum node
+2. When a view function is called internally by a non view function, it is costs gas because that function will create a transaction
