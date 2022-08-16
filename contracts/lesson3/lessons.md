@@ -51,3 +51,7 @@ Chapter 11
 Chapter 12
 ---
 1. Expanding on Chapter 11. In some cases, a naive implementation would involve using `storage` variables to hold data for future manipulations. However, if the data held needs updating (write operations) this could become really expensive in gas fees. Hence it is cheaper to leverage forloops to rebuild data when it is needed than store it for future operations.
+
+Chapter 14
+---
+1. [Congratulations](https://share.cryptozombies.io/en/lesson/3/share/tantamouse?id=Y3p8MTk5OTM2)
