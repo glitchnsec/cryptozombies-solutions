@@ -47,3 +47,6 @@ Chapter 10
 Chapter 11
 ---
 1. Writes to `storage` are expensive because they persist acorss nodes. Use `memory` whenever possible especially in `external view` where usage is at no cost to users
+
+Chapter 12
+---
