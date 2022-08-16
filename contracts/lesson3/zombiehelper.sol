@@ -20,6 +20,8 @@ contract ZombieHleper is ZombieFeeding {
 
     }
 
-    function getZombiesByOwner (address _owner) external view returns(uint[] memory) {} 
+    function getZombiesByOwner (address _owner) external view returns(uint[] memory) {
+        // Start here
+    } 
 
 }
